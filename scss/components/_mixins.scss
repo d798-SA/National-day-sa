@@ -1,0 +1,20 @@
+@use  '../custom' as *;
+// gradient mixins 
+
+@mixin gradient {
+    background: linear-gradient(to right, rgba(rgb(34, 212, 34) , 0.95) , rgba(rgb(4, 131, 4) , 0.95));
+
+    transition: all .3s;
+    
+}
+
+
+// Absolute center
+
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}

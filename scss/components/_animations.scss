@@ -1,0 +1,20 @@
+@use '../custom' as *;
+@use  '../components/mixins' as *;
+
+// pulse border 
+@keyframes pulse-border {
+    0% { 
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    // 60% { 
+    //     color: $primary;
+    //     transform: scale(1.3);
+    // }
+
+    100% { 
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
